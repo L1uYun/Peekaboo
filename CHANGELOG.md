@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Classify Dock separators and the Trash from their Accessibility subroles, so `peekaboo dock list` hides separators unless `--include-all` is passed, reports included separators as `separator` instead of blank `unknown` items, and identifies a localized Trash (such as "Papierkorb") as `trash`. #1120.
+
 ## 4.9.6 - 2026-10-20
 
 **Highlights:** Find, inspect and capture apps that re-exec themselves on launch, such as Xcode's Device Hub, whose PID AppKit reports as -1; report `window close` as closed when an app keeps the closed window alive or quits; use the Mac app's saved Vision model for image analysis; and keep the Mac chat's Stop button, follow-ups, transcript, menu bar and recent sessions reliable.
